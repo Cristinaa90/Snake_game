@@ -1,4 +1,6 @@
 ## Descriere proiect penru certificare
+          Cristina Bodea
+
 
 Ce face proiectul meu:
 
