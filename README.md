@@ -4,8 +4,14 @@
 
 Ce face proiectul meu:
 
-Acesta este un joc clasic Snake implementat in Python folosind modulul Turtle pentru grafica. Jocul ofera o intefata grafica in care jucatorul controleaza un sarpe care se misca in jurul ecranului.
+Acesta este un joc clasic Snake implementat in Python folosind modulul Turtle pentru grafica. Jocul ofera o interfata grafica in care jucatorul controleaza un sarpe care se misca in jurul ecranului.
 Obiectul jocului este de a manca mancare si de a creste lungimea sarpelui fara a se ciocni cu peretii sau cu propriul corp.
+Codul este format din trei clase: Snake, Food și Scoreboard.
+Clasa Snake reprezintă șarpele din joc. Are metode pentru crearea șarpelui, adăugarea de segmente la șarpe, extinderea șarpelui, mutarea șarpelui și schimbarea direcției acestuia. Șarpele este compus din segmente individuale de țestoasă.
+Clasa Food reprezintă hrana pe care șarpele trebuie să o mănânce. Este o subclasă de Turtle și are o metodă de a-și reîmprospăta poziția în mod aleatoriu pe ecran.
+Clasa Scoreboard gestionează scorul jocului și îl afișează pe ecran. Are metode de actualizare a tabelului de marcaj, de afișare a mesajului game over și de creștere a scorului.
+
+
 
 Caracteristici:
 - Jocul permite jucatorului sa controleze miscarea sarpelui folosind tastele sageti: Sus, Jos, Stanga, Dreapta.
@@ -16,8 +22,8 @@ Caracteristici:
 
 Instalare:
 1. Clonati repositorul  https://github.com/Cristinaa90/Snake_game.git
-2. Asigurati-va ca Python si modulul Turtle sunt instalate pe sistemul dumneavoastra.
-3. Rulati scriptul Python snake_game.py codul main.py
+2. Pentru a rula acest cod, trebuie să aveți instalat modulul Turtle. Puteți executa codul într-un mediu Python care acceptă modulul Turtle, cum ar fi IDLE sau PyCharm.
+3. Rulati scriptul main.py
 4. Se va deschide fereastra de joc si puteti incepe sa jucati jocul Snake.
 
 Cum se joaca:
