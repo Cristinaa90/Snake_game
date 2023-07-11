@@ -1,4 +1,4 @@
-from turtle import Turtle,Screen
+from turtle import Screen
 from snake import Snake
 from food import Food
 from scoreboard import Scoreboard
@@ -10,13 +10,11 @@ screen.setup(width=600, height=600)
 screen.tracer(0)
 
 screen.bgcolor("black")
-screen.title("Joc sarpe")
+screen.title("Snake game")
 
 snake = Snake()
 food = Food()
 scoreboard = Scoreboard()
-
-#sus = 90, stanga = 180, jos = 270, dreapta=0
 
 screen.listen()
 screen.onkey(snake.up, "Up")
