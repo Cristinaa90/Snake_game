@@ -1,35 +1,35 @@
-## Descriere proiect pentru certificare
+## Project description for certification
           Cristina Bodea
 
 
-Ce face proiectul meu:
+What my project does:
 
-Acesta este un joc clasic Snake implementat in Python folosind modulul Turtle pentru grafica. Jocul ofera o interfata grafica in care jucatorul controleaza un sarpe care se misca in jurul ecranului.
-Obiectul jocului este de a manca mancare si de a creste lungimea sarpelui fara a se ciocni cu peretii sau cu propriul corp.
-Codul este format din trei clase: Snake, Food și Scoreboard.
-Clasa Snake reprezintă sarpele din joc. Are metode pentru crearea sarpelui, adaugarea de segmente la sarpe, extinderea sarpelui, mutarea sarpelui si schimbarea directiei acestuia. Sarpele este compus din segmente individuale.
-Clasa Food reprezinta hrana pe care sarpele trebuie sa o manance. Este o subclasa de Turtle si are o metoda de a-si reimprospata pozitia în mod aleatoriu pe ecran.
-Clasa Scoreboard gestioneaza scorul jocului si îl afisează pe ecran. Are metode de actualizare a tabelului de marcaj, de afisare a mesajului game over si de crestere a scorului.
+This is a classic Snake game implemented in Python using the Turtle module for graphics. The game offers a graphical interface in which the player controls a snake that moves around the screen.
+The object of the game is to eat food and increase the length of the snake without colliding with walls or your own body.
+The code consists of three classes: Snake, Food, and Scoreboard.
+The Snake class represents the snake in the game. It has methods for creating the snake, adding segments to the snake, expanding the snake, moving the snake, and changing its direction. The snake is composed of individual segments.
+The Food class represents the food that the snake must eat. It is a subclass of Turtle and has a method to randomly refresh its position on the screen.
+The Scoreboard class manages the game score and displays it on the screen. It has methods for updating the scoreboard, displaying the game over message and increasing the score.
 
 
 
-Caracteristici:
-- Jocul permite jucatorului sa controleze miscarea sarpelui folosind tastele sageti: Sus, Jos, Stanga, Dreapta.
-- Sarpele creste in lungime de fiecare data cand mananca mancare.
-- Jocul se termina daca sarpele se ciocneste de pereti sau de propriul sau corp.
-- Scorul jucatorului este afisat pe ecran, crescand de fiecare data cand sarpele mananca mancare.
-- Ecraul game over arata scorul final.
+Characteristics:
+- The game allows the player to control the movement of the snake using the arrow keys: Up, Down, Left, Right.
+- The snake grows in length every time it eats food.
+- The game ends if the snake collides with the walls or with its own body.
+- The player's score is displayed on the screen, increasing each time the snake eats food.
+- The game over screen shows the final score.
 
-Instalare:
-1. Clonati repositorul  https://github.com/Cristinaa90/Snake_game.git
-2. Pentru a rula acest cod, trebuie să aveți instalat modulul Turtle. Puteti executa codul într-un mediu Python care accepta modulul Turtle, cum ar fi IDLE sau PyCharm.
-3. Rulati scriptul main.py
-4. Se va deschide fereastra de joc si puteti incepe sa jucati jocul Snake.
+Installation:
+1. Clone the repository https://github.com/Cristinaa90/Snake_game.git
+2. To run this code, you must have the Turtle module installed. You can run the code in a Python environment that supports the Turtle module, such as IDLE or PyCharm.
+3. Run the main.py script
+4. The game window will open and you can start playing the Snake game.
 
-Cum se joaca:
-- Folositi tastele sageti (Sus, Jos, Stanga, Dreapta) pentru a controla miscarea sarpelui.
-- Sarpele se va misca continuu in directie in care a fost ghidat.
-- De fiecare data cand sarpele mananca acesta va creste in lungime.
-- Evitati ciocnirea cu peretii sau cu propiul corp al sarpelui.
-- Jocul se termina cand sarpele se ciocneste de un perete sau de propiul corp.
-- Scorul final va fi afisat pe ecran impreuna cu mesajul 'Game over'.
+How to play:
+- Use the arrow keys (Up, Down, Left, Right) to control the snake's movement.
+- The snake will move continuously in the direction in which it was guided.
+- Every time the snake eats it will grow in length.
+- Avoid collision with the walls or with the snake's own body.
+- The game ends when the snake collides with a wall or with its own body.
+- The final score will be displayed on the screen together with the message 'Game over'.
